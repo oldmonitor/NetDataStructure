@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B24E1A6-792A-4E4D-8BDA-6A2A50CAD0DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataStructureProblems</RootNamespace>
+    <AssemblyName>DataStructureProblems</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayProblems\CharacterReplacer.cs" />
+    <Compile Include="ArrayProblems\NumberStringFormatter.cs" />
+    <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
+    <Compile Include="ArrayProblems\PalindromeChecker.cs" />
+    <Compile Include="ArrayProblems\PermutationChecker.cs" />
+    <Compile Include="ArrayProblems\StringCompressor.cs" />
+    <Compile Include="ArrayProblems\StringRotationChecker.cs" />
+    <Compile Include="ArrayProblems\UniqueCharacterChecker.cs" />
+    <Compile Include="LinkedListProblems\DuplicateRemover.cs" />
+    <Compile Include="LinkedListProblems\LinkedListExample.cs" />
+    <Compile Include="LinkedListProblems\LinkedListMath.cs" />
+    <Compile Include="LinkedListProblems\NodeDataElement.cs" />
+    <Compile Include="LinkedListProblems\NodeFinder.cs" />
+    <Compile Include="LinkedListProblems\SimpleLinkedListNode.cs" />
+    <Compile Include="MatrixProblems\MatrixComparer.cs" />
+    <Compile Include="MatrixProblems\MatrixPrinter.cs" />
+    <Compile Include="MatrixProblems\MatrixRotater.cs" />
+    <Compile Include="MatrixProblems\ZeroColumnRowSetter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueProblems\AnimalShelter.cs" />
+    <Compile Include="StackProblems\MinStack.cs" />
+    <Compile Include="StackProblems\StackQueue.cs" />
+    <Compile Include="StackProblems\StackSorter.cs" />
+    <Compile Include="TreeProblems\BinarySearchTreeChecker.cs" />
+    <Compile Include="TreeProblems\CheckTreeBalance.cs" />
+    <Compile Include="TreeProblems\DataStructures\Graph.cs" />
+    <Compile Include="TreeProblems\DataStructures\GraphNode.cs" />
+    <Compile Include="TreeProblems\DataStructures\TreeNode.cs" />
+    <Compile Include="TreeProblems\GetSucessor.cs" />
+    <Compile Include="TreeProblems\GetTreeHeight.cs" />
+    <Compile Include="TreeProblems\MinHeightTree.cs" />
+    <Compile Include="TreeProblems\PathChecker.cs" />
+    <Compile Include="TreeProblems\TreeToLinkListConverter.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="LinkedListProblems\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
