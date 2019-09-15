@@ -46,6 +46,7 @@
     <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
     <Compile Include="ArrayProblems\PalindromeChecker.cs" />
     <Compile Include="ArrayProblems\PermutationChecker.cs" />
+    <Compile Include="HackerRank\HackerRankSimple.cs" />
     <Compile Include="ArrayProblems\StringCompressor.cs" />
     <Compile Include="ArrayProblems\StringRotationChecker.cs" />
     <Compile Include="ArrayProblems\UniqueCharacterChecker.cs" />
