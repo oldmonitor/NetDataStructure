@@ -57,6 +57,7 @@
     <Compile Include="StackProblems\StackProblemTest.cs" />
     <Compile Include="StackProblems\StackSortTest.cs" />
     <Compile Include="TreeProblem\ConvertTreeToListsTest.cs" />
+    <Compile Include="TreeProblem\GeBSTSuccessorTest.cs" />
     <Compile Include="TreeProblem\MinBSTTest.cs" />
     <Compile Include="TreeProblem\TestBinarySearchTreeChecker.cs" />
     <Compile Include="TreeProblem\TreeHeightTest.cs" />

@@ -70,7 +70,7 @@
     <Compile Include="TreeProblems\DataStructures\Graph.cs" />
     <Compile Include="TreeProblems\DataStructures\GraphNode.cs" />
     <Compile Include="TreeProblems\DataStructures\TreeNode.cs" />
-    <Compile Include="TreeProblems\GetSucessor.cs" />
+    <Compile Include="TreeProblems\BinarySearchTreeSucessor.cs" />
     <Compile Include="TreeProblems\GetTreeHeight.cs" />
     <Compile Include="TreeProblems\MinHeightTree.cs" />
     <Compile Include="TreeProblems\PathChecker.cs" />
