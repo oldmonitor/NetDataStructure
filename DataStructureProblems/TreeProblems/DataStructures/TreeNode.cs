@@ -12,6 +12,7 @@ namespace DataStructureProblems.TreeProblems.DataStructures
         public TreeNode LeftNode { get; set; }
         public TreeNode RightNode { get; set; }
 
+        public TreeNode Parent { get; set; }
 
     }
 }
