@@ -41,20 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayProblems\CharacterReplacer.cs" />
+    <Compile Include="ArrayProblems\3_CharacterReplacer.cs" />
+    <Compile Include="ArrayProblems\4_TwoNumberGetSum.cs" />
     <Compile Include="ArrayProblems\NumberStringFormatter.cs" />
     <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
     <Compile Include="ArrayProblems\PalindromeChecker.cs" />
-    <Compile Include="ArrayProblems\PermutationChecker.cs" />
+    <Compile Include="ArrayProblems\2_PermutationChecker.cs" />
+    <Compile Include="ArrayProblems\SmallIntInArray.cs" />
     <Compile Include="ArrayProblems\StringCompressor.cs" />
     <Compile Include="ArrayProblems\StringRotationChecker.cs" />
-    <Compile Include="ArrayProblems\UniqueCharacterChecker.cs" />
+    <Compile Include="ArrayProblems\1_UniqueCharacterChecker.cs" />
     <Compile Include="LinkedListProblems\DuplicateRemover.cs" />
     <Compile Include="LinkedListProblems\LinkedListExample.cs" />
     <Compile Include="LinkedListProblems\LinkedListMath.cs" />
     <Compile Include="LinkedListProblems\NodeDataElement.cs" />
     <Compile Include="LinkedListProblems\NodeFinder.cs" />
     <Compile Include="LinkedListProblems\SimpleLinkedListNode.cs" />
+    <Compile Include="MathProblems\1_ReverseInteger.cs" />
+    <Compile Include="MathProblems\2_RomeToInteger.cs" />
     <Compile Include="MatrixProblems\MatrixComparer.cs" />
     <Compile Include="MatrixProblems\MatrixPrinter.cs" />
     <Compile Include="MatrixProblems\MatrixRotater.cs" />
@@ -64,6 +68,7 @@
     <Compile Include="StackProblems\MinStack.cs" />
     <Compile Include="StackProblems\StackQueue.cs" />
     <Compile Include="StackProblems\StackSorter.cs" />
+    <Compile Include="StringProblems\CommandParser.cs" />
     <Compile Include="TreeProblems\BinarySearchTreeChecker.cs" />
     <Compile Include="TreeProblems\CheckTreeBalance.cs" />
     <Compile Include="TreeProblems\DataStructures\Graph.cs" />

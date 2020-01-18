@@ -49,9 +49,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayProblems\PermutationCheckerTest.cs" />
     <Compile Include="ArrayProblems\StringRotationTest.cs" />
+    <Compile Include="ArrayProblems\TwoNumToGetSumTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListNodeFinderTest.cs" />
+    <Compile Include="MathProblems\ReverseIntegerTest.cs" />
+    <Compile Include="MathProblems\UnitTest1.cs" />
     <Compile Include="MatrixProblems\ZeroSetterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StackProblems\StackProblemTest.cs" />
