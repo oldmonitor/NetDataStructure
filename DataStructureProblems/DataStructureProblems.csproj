@@ -65,9 +65,11 @@
     <Compile Include="MatrixProblems\ZeroColumnRowSetter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueProblems\AnimalShelter.cs" />
+    <Compile Include="StackProblems\1_ValidParentheses.cs" />
     <Compile Include="StackProblems\MinStack.cs" />
     <Compile Include="StackProblems\StackQueue.cs" />
     <Compile Include="StackProblems\StackSorter.cs" />
+    <Compile Include="StringProblems\1_longestCommonPrefix.cs" />
     <Compile Include="StringProblems\CommandParser.cs" />
     <Compile Include="TreeProblems\BinarySearchTreeChecker.cs" />
     <Compile Include="TreeProblems\CheckTreeBalance.cs" />
