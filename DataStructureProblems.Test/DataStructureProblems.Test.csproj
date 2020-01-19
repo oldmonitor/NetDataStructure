@@ -54,6 +54,7 @@
     <Compile Include="ArrayProblems\TwoNumToGetSumTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListNodeFinderTest.cs" />
+    <Compile Include="LinkedListProblems\MergeSortedListTest.cs" />
     <Compile Include="MathProblems\ReverseIntegerTest.cs" />
     <Compile Include="MathProblems\RomanToIntegerTest.cs" />
     <Compile Include="MatrixProblems\ZeroSetterTest.cs" />

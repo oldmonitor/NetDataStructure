@@ -51,6 +51,7 @@
     <Compile Include="ArrayProblems\StringCompressor.cs" />
     <Compile Include="ArrayProblems\StringRotationChecker.cs" />
     <Compile Include="ArrayProblems\1_UniqueCharacterChecker.cs" />
+    <Compile Include="LinkedListProblems\1_MergeSortedList.cs" />
     <Compile Include="LinkedListProblems\DuplicateRemover.cs" />
     <Compile Include="LinkedListProblems\LinkedListExample.cs" />
     <Compile Include="LinkedListProblems\LinkedListMath.cs" />
