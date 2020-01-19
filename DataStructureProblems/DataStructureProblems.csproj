@@ -47,10 +47,12 @@
     <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
     <Compile Include="ArrayProblems\PalindromeChecker.cs" />
     <Compile Include="ArrayProblems\2_PermutationChecker.cs" />
+    <Compile Include="ArrayProblems\5_SearchInsertPositionInSortedArray.cs" />
     <Compile Include="ArrayProblems\SmallIntInArray.cs" />
     <Compile Include="ArrayProblems\StringCompressor.cs" />
     <Compile Include="ArrayProblems\StringRotationChecker.cs" />
     <Compile Include="ArrayProblems\1_UniqueCharacterChecker.cs" />
+    <Compile Include="BacktrackingProblems\1_GenerateParentheses.cs" />
     <Compile Include="LinkedListProblems\1_MergeSortedList.cs" />
     <Compile Include="LinkedListProblems\DuplicateRemover.cs" />
     <Compile Include="LinkedListProblems\LinkedListExample.cs" />

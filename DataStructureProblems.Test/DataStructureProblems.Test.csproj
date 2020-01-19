@@ -52,6 +52,7 @@
     <Compile Include="ArrayProblems\PermutationCheckerTest.cs" />
     <Compile Include="ArrayProblems\StringRotationTest.cs" />
     <Compile Include="ArrayProblems\TwoNumToGetSumTest.cs" />
+    <Compile Include="ArrayProblems\SearchInsertPositionInSortedArrayTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListNodeFinderTest.cs" />
     <Compile Include="LinkedListProblems\MergeSortedListTest.cs" />
