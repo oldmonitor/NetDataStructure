@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ArrayProblems\3_CharacterReplacer.cs" />
     <Compile Include="ArrayProblems\4_TwoNumberGetSum.cs" />
+    <Compile Include="ArrayProblems\6_MergeSortedArray.cs" />
     <Compile Include="ArrayProblems\NumberStringFormatter.cs" />
     <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
     <Compile Include="ArrayProblems\PalindromeChecker.cs" />
