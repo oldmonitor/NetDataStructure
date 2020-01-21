@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayProblems\BestTimeToBuyAndSellStockTest.cs" />
     <Compile Include="ArrayProblems\MergeSortedArrayTest.cs" />
     <Compile Include="ArrayProblems\PermutationCheckerTest.cs" />
     <Compile Include="ArrayProblems\StringRotationTest.cs" />
