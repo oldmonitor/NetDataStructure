@@ -18,14 +18,15 @@ namespace DataStructureProblems.StringProblems
             }
             minLength = this.FindMinLength(stringArray);
 
-            string commonPrefix = "";
-            for(int i = 1;i<=minLength;i++)
+            StringBuilder commonPrefix = new StringBuilder();
+            for(int i = 0;i<minLength;i++)
             {
-                string substring = stringArray[0].Substring(0, i);
+                char c = stringArray[0][i];
+                //string substring = stringArray[0].Substring(0, i);
                 bool isCommonPrefix = true;
                 for(int j = 1; j< stringArray.Length; j++)
                 {
-                    if(stringArray[j].StartsWith(substring) == false)
+                    if(stringArray[j][i] != c)
                     {
                         isCommonPrefix = false;
                         break;
@@ -38,10 +39,10 @@ namespace DataStructureProblems.StringProblems
                 }
                 else
                 {
-                    commonPrefix = substring;
+                    commonPrefix.Append(c);
                 }
             }
-            return commonPrefix;
+            return commonPrefix.ToString();
         }
 
         private int FindMinLength(string[] stringArray)
