@@ -67,6 +67,7 @@
     <Compile Include="StackProblems\StackProblemTest.cs" />
     <Compile Include="StackProblems\StackSortTest.cs" />
     <Compile Include="StackProblems\ValidParenthesesTest.cs" />
+    <Compile Include="StringProblems\AreTwoStringsAnagramTest.cs" />
     <Compile Include="StringProblems\LongestCommonPrefixTest.cs" />
     <Compile Include="TreeProblem\ConvertTreeToListsTest.cs" />
     <Compile Include="TreeProblem\GeBSTSuccessorTest.cs" />

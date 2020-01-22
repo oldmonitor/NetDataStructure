@@ -1,32 +1,14 @@
-﻿using DataStructureProblems.ArrayProblems;
-using DataStructureProblems.StringProblems;
-using DataStructureProblems.TreeProblems.DataStructures;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ConsoleTest
+namespace DataStructureProblems.StringProblems
 {
-    class Program
+    public class AreTwoStringsAnagram
     {
-        static void Main(string[] args)
-        {
-
-            string s = "abcd";
-            string s2 = "cdab";
-            bool b = IsAnagram(s, s2);
-            System.Console.WriteLine(b);
-
-            List<char> list;
-            list.co
-
-
-        }
-
-        static bool IsAnagram(string s1, string s2)
+        public bool IsAnagram(string s1, string s2)
         {
             int[] countKeeper = new int[128];
             for (int i = 0; i < s1.Length; i++)
@@ -36,8 +18,8 @@ namespace ConsoleTest
 
             for (int i = 0; i < s2.Length; i++)
             {
-                countKeeper[s1[i]]--;
-                if (countKeeper[s1[i]] < 0)
+                countKeeper[s2[i]]--;
+                if (countKeeper[s2[i]] < 0)
                 {
                     return false;
                 }
@@ -52,10 +34,5 @@ namespace ConsoleTest
             }
             return true;
         }
-
-
-
-
-
     }
 }
