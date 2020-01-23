@@ -56,6 +56,7 @@
     <Compile Include="ArrayProblems\TwoNumToGetSumTest.cs" />
     <Compile Include="ArrayProblems\SearchInsertPositionInSortedArrayTest.cs" />
     <Compile Include="ArrayProblems\AddOneToIntegerInArrayTest.cs" />
+    <Compile Include="BacktrackingProblems\FindAllPossibleSubsetsTest.cs" />
     <Compile Include="DecisionTreeProblems\UnitTest1.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListNodeFinderTest.cs" />
