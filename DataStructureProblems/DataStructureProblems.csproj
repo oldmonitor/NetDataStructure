@@ -79,6 +79,7 @@
     <Compile Include="StackProblems\StackSorter.cs" />
     <Compile Include="StringProblems\1_longestCommonPrefix.cs" />
     <Compile Include="StringProblems\2_AreTwoStringsAnagram.cs" />
+    <Compile Include="StringProblems\3_FindLongestSubstring.cs" />
     <Compile Include="StringProblems\CommandParser.cs" />
     <Compile Include="TreeProblems\BinarySearchTreeChecker.cs" />
     <Compile Include="TreeProblems\CheckTreeBalance.cs" />

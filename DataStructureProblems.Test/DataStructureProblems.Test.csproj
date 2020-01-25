@@ -70,6 +70,7 @@
     <Compile Include="StackProblems\ValidParenthesesTest.cs" />
     <Compile Include="StringProblems\AreTwoStringsAnagramTest.cs" />
     <Compile Include="StringProblems\LongestCommonPrefixTest.cs" />
+    <Compile Include="StringProblems\FindLongestSubstringCountTest.cs" />
     <Compile Include="TreeProblem\ConvertTreeToListsTest.cs" />
     <Compile Include="TreeProblem\GeBSTSuccessorTest.cs" />
     <Compile Include="TreeProblem\MinBSTTest.cs" />
