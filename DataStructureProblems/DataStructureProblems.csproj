@@ -48,6 +48,7 @@
     <Compile Include="ArrayProblems\07_AddOneToIntegerInArray.cs" />
     <Compile Include="ArrayProblems\08_BestTimeToBuyAndSellStock.cs" />
     <Compile Include="ArrayProblems\09_RemoveDuplicateInSortedArray.cs" />
+    <Compile Include="ArrayProblems\11_RemoveMoreThanTwoDuplicateInSortedArray.cs" />
     <Compile Include="ArrayProblems\NumberStringFormatter.cs" />
     <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
     <Compile Include="ArrayProblems\PalindromeChecker.cs" />

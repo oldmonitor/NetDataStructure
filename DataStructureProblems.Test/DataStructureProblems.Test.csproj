@@ -52,6 +52,7 @@
     <Compile Include="ArrayProblems\BestTimeToBuyAndSellStockTest.cs" />
     <Compile Include="ArrayProblems\MergeSortedArrayTest.cs" />
     <Compile Include="ArrayProblems\PermutationCheckerTest.cs" />
+    <Compile Include="ArrayProblems\RemoveMoreThanTwoDuplicateInSortedArrayTest.cs" />
     <Compile Include="ArrayProblems\StringRotationTest.cs" />
     <Compile Include="ArrayProblems\TwoNumToGetSumTest.cs" />
     <Compile Include="ArrayProblems\SearchInsertPositionInSortedArrayTest.cs" />
