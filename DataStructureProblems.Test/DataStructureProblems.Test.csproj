@@ -61,7 +61,7 @@
     <Compile Include="ArrayProblems\RemoveValueFromArrayTest.cs" />
     <Compile Include="BacktrackingProblems\FindAllPossibleSubsetsTest.cs" />
     <Compile Include="DecisionTreeProblems\UnitTest1.cs" />
-    <Compile Include="HashTableProblems\UnitTest1.cs" />
+    <Compile Include="HashTableProblems\FindFirstUniqueCharacterInStringTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListNodeFinderTest.cs" />
     <Compile Include="LinkedListProblems\MergeSortedListTest.cs" />
