@@ -61,6 +61,7 @@
     <Compile Include="BacktrackingProblems\1_GenerateParentheses.cs" />
     <Compile Include="BacktrackingProblems\2_FindAllPossibleSubsets.cs" />
     <Compile Include="DecisionTreeProblems\1_ClimbStairs.cs" />
+    <Compile Include="HashtableProblems\1_FindFirstUniqueCharacterInString.cs" />
     <Compile Include="LinkedListProblems\1_MergeSortedList.cs" />
     <Compile Include="LinkedListProblems\DuplicateRemover.cs" />
     <Compile Include="LinkedListProblems\LinkedListExample.cs" />
