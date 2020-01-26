@@ -57,6 +57,7 @@
     <Compile Include="ArrayProblems\SearchInsertPositionInSortedArrayTest.cs" />
     <Compile Include="ArrayProblems\AddOneToIntegerInArrayTest.cs" />
     <Compile Include="ArrayProblems\RemoveDuplicateInSortedArrayTest.cs" />
+    <Compile Include="ArrayProblems\RemoveValueFromArrayTest.cs" />
     <Compile Include="BacktrackingProblems\FindAllPossibleSubsetsTest.cs" />
     <Compile Include="DecisionTreeProblems\UnitTest1.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
