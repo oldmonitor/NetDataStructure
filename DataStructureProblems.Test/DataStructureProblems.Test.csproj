@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayProblems\BestTimeToBuyAndSellStockTest.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="ArrayProblems\RemoveDuplicateInSortedArrayTest.cs" />
     <Compile Include="ArrayProblems\RemoveValueFromArrayTest.cs" />
     <Compile Include="BacktrackingProblems\FindAllPossibleSubsetsTest.cs" />
+    <Compile Include="BacktrackingProblems\GetLetterCombinationOfAPhoneNumberTest.cs" />
     <Compile Include="DecisionTreeProblems\UnitTest1.cs" />
     <Compile Include="HashTableProblems\FindFirstUniqueCharacterInStringTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
