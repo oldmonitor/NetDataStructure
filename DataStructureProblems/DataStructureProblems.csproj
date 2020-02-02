@@ -62,6 +62,7 @@
     <Compile Include="BacktrackingProblems\2_FindAllPossibleSubsets.cs" />
     <Compile Include="BacktrackingProblems\3_GetLetterCombinationOfAPhoneNumber.cs" />
     <Compile Include="DecisionTreeProblems\1_ClimbStairs.cs" />
+    <Compile Include="DynamicProgrammingProblems\1_Fibonacci.cs" />
     <Compile Include="HashtableProblems\1_FindFirstUniqueCharacterInString.cs" />
     <Compile Include="LinkedListProblems\1_MergeSortedList.cs" />
     <Compile Include="LinkedListProblems\DuplicateRemover.cs" />
@@ -100,6 +101,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="BacktrackingProblems\2_FindAllPossibleSubsets.png" />
+    <Content Include="DynamicProgrammingProblems\steps.txt" />
     <Content Include="LinkedListProblems\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

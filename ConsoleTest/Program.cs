@@ -15,13 +15,7 @@ namespace ConsoleTest
         static void Main(string[] args)
         {
 
-            string s = "abcd";
-            string s2 = "cdab";
-            bool b = IsAnagram(s, s2);
-            System.Console.WriteLine(b);
-
-            List<char> list;
-            list.co
+            System.Console.WriteLine("Hello World");
 
 
         }

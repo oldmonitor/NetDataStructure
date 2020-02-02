@@ -1,0 +1,4 @@
+1. Can be divide into subproblems?
+2. recursive solution
+3. Are there repetitive subproblem?
+4. Memorize subproblems.
