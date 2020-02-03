@@ -63,6 +63,7 @@
     <Compile Include="BacktrackingProblems\FindAllPossibleSubsetsTest.cs" />
     <Compile Include="BacktrackingProblems\GetLetterCombinationOfAPhoneNumberTest.cs" />
     <Compile Include="DecisionTreeProblems\UnitTest1.cs" />
+    <Compile Include="DynamicProgrammingProblems\LongestCommonSubstringTest.cs" />
     <Compile Include="HashTableProblems\FindFirstUniqueCharacterInStringTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListMathTest.cs" />
     <Compile Include="LinkedListProblems\LinkedListNodeFinderTest.cs" />

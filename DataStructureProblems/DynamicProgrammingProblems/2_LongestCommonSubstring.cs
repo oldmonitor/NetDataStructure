@@ -17,7 +17,53 @@ namespace DataStructureProblems.StringProblems
         /// <returns></returns>
         public string GetLongestCommonSubstring(string s1, string s2)
         {
-            return "";
+            if(s1.Length == 0 || s2.Length == 0)
+            {
+                return "";
+            }
+
+            int[,] counterChecker = new int[s1.Length, s2.Length];
+            int intMaxCounter = 0;
+            int intMaxILocation = 0;
+            int intMaxJLocation = 0;
+
+            for(int i =0;i<s1.Length; i++)
+            {
+                for(int j=0; j<s2.Length; j++)
+                {
+                    if(s1[i] == s2[j])
+                    {
+                        if(i==0 || j== 0 )
+                        {
+                            counterChecker[i, j] = 1;
+                        }
+                        else
+                        {
+                            counterChecker[i, j] = counterChecker[i - 1, j - 1] + 1;
+                        }
+                    }
+                    else
+                    {
+                        counterChecker[i, j] = 0;
+                    }
+
+                    if(counterChecker[i, j] > intMaxCounter)
+                    {
+                        intMaxCounter = counterChecker[i, j];
+                        intMaxILocation = i;
+                        intMaxJLocation = j;
+                    }
+                }
+            }
+
+            if (intMaxCounter == 0)
+            {
+                return "";
+            }
+            else
+            {
+                return s1.Substring(intMaxILocation - intMaxCounter + 1, intMaxCounter);
+            }
         }
     }
 }
