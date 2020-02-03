@@ -62,7 +62,9 @@
     <Compile Include="BacktrackingProblems\2_FindAllPossibleSubsets.cs" />
     <Compile Include="BacktrackingProblems\3_GetLetterCombinationOfAPhoneNumber.cs" />
     <Compile Include="DecisionTreeProblems\1_ClimbStairs.cs" />
+    <Compile Include="DynamicProgrammingProblems\L198_HouseRobber.cs" />
     <Compile Include="DynamicProgrammingProblems\1_Fibonacci.cs" />
+    <Compile Include="DynamicProgrammingProblems\L005_LongestPalindromicSubstring.cs" />
     <Compile Include="HashtableProblems\1_FindFirstUniqueCharacterInString.cs" />
     <Compile Include="LinkedListProblems\1_MergeSortedList.cs" />
     <Compile Include="LinkedListProblems\DuplicateRemover.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="StringProblems\1_longestCommonPrefix.cs" />
     <Compile Include="StringProblems\2_AreTwoStringsAnagram.cs" />
     <Compile Include="StringProblems\3_FindLongestSubstring.cs" />
+    <Compile Include="DynamicProgrammingProblems\2_LongestCommonSubstring.cs" />
     <Compile Include="StringProblems\CommandParser.cs" />
     <Compile Include="TreeProblems\BinarySearchTreeChecker.cs" />
     <Compile Include="TreeProblems\CheckTreeBalance.cs" />
@@ -101,6 +104,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="BacktrackingProblems\2_FindAllPossibleSubsets.png" />
+    <Content Include="DynamicProgrammingProblems\2_LongestCommonSubstring_solution.PNG" />
     <Content Include="DynamicProgrammingProblems\steps.txt" />
     <Content Include="LinkedListProblems\Readme.txt" />
   </ItemGroup>

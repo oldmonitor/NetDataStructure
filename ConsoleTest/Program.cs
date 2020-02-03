@@ -14,39 +14,53 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-
-            System.Console.WriteLine("Hello World");
-
+            
 
         }
 
-        static bool IsAnagram(string s1, string s2)
+        /*
+        public int minimumDays(int rows, int columns, int[,] grid)
         {
-            int[] countKeeper = new int[128];
-            for (int i = 0; i < s1.Length; i++)
+            int[,] daysGrid = new int[rows, columns];
+            for(int i=0;i<rows;i++)
             {
-                countKeeper[s1[i]]++;
-            }
-
-            for (int i = 0; i < s2.Length; i++)
-            {
-                countKeeper[s1[i]]--;
-                if (countKeeper[s1[i]] < 0)
+                for(int j=0;j<columns; j++)
                 {
-                    return false;
+                    
+                }
+            }
+        }*/
+
+
+        public static List<string> popularNToys(int numToys,
+                                 int topToys,
+                                 List<string> toys,
+                                 int numQuotes, 
+                                 List<string> quotes)
+        {
+            List<string> result = new List<string>();
+            Dictionary<string, int> countDictionary = new Dictionary<string, int>();
+            
+            foreach (string t in toys)
+            {
+                countDictionary.Add(t, 0);
+            }
+            
+            foreach(string s in quotes)
+            {
+                foreach (var toyName in toys)
+                {
+                    if(s.Contains(toyName))
+                    {
+                        countDictionary[toyName]++;
+                    }
                 }
             }
 
-            for (int i = 0; i < 128; i++)
-            {
-                if (countKeeper[i] > 0)
-                {
-                    return false;
-                }
-            }
-            return true;
+            result = countDictionary.ToList().OrderByDescending(x => x.Value).Where(x=>x.Value>0).Take(topToys).Select(x => x.Key).ToList();
+
+            return result;
         }
-
 
 
 
