@@ -49,6 +49,7 @@
     <Compile Include="ArrayProblems\08_BestTimeToBuyAndSellStock.cs" />
     <Compile Include="ArrayProblems\09_RemoveDuplicateInSortedArray.cs" />
     <Compile Include="ArrayProblems\11_RemoveMoreThanTwoDuplicateInSortedArray.cs" />
+    <Compile Include="ArrayProblems\L692_TopKFrequentWords.cs" />
     <Compile Include="ArrayProblems\NumberStringFormatter.cs" />
     <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
     <Compile Include="ArrayProblems\PalindromeChecker.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="BacktrackingProblems\2_FindAllPossibleSubsets.cs" />
     <Compile Include="BacktrackingProblems\3_GetLetterCombinationOfAPhoneNumber.cs" />
     <Compile Include="DecisionTreeProblems\1_ClimbStairs.cs" />
+    <Compile Include="DesignProblems\L146_LRUCache.cs" />
     <Compile Include="DynamicProgrammingProblems\L198_HouseRobber.cs" />
     <Compile Include="DynamicProgrammingProblems\1_Fibonacci.cs" />
     <Compile Include="DynamicProgrammingProblems\L005_LongestPalindromicSubstring.cs" />
