@@ -49,6 +49,7 @@
     <Compile Include="ArrayProblems\08_BestTimeToBuyAndSellStock.cs" />
     <Compile Include="ArrayProblems\09_RemoveDuplicateInSortedArray.cs" />
     <Compile Include="ArrayProblems\11_RemoveMoreThanTwoDuplicateInSortedArray.cs" />
+    <Compile Include="ArrayProblems\L011_ContainerWithMostWater.cs" />
     <Compile Include="ArrayProblems\L692_TopKFrequentWords.cs" />
     <Compile Include="ArrayProblems\NumberStringFormatter.cs" />
     <Compile Include="ArrayProblems\OneEditAwayChecker.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="BacktrackingProblems\1_GenerateParentheses.cs" />
     <Compile Include="BacktrackingProblems\2_FindAllPossibleSubsets.cs" />
     <Compile Include="BacktrackingProblems\3_GetLetterCombinationOfAPhoneNumber.cs" />
+    <Compile Include="BacktrackingProblems\3_RobotInAGrid.cs" />
     <Compile Include="DecisionTreeProblems\1_ClimbStairs.cs" />
     <Compile Include="DesignProblems\L146_LRUCache.cs" />
     <Compile Include="DynamicProgrammingProblems\L198_HouseRobber.cs" />
@@ -103,7 +105,9 @@
     <Compile Include="TreeProblems\PathChecker.cs" />
     <Compile Include="TreeProblems\TreeToLinkListConverter.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DesignProblems\NWayAssociativeCache\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="BacktrackingProblems\2_FindAllPossibleSubsets.png" />
     <Content Include="DynamicProgrammingProblems\2_LongestCommonSubstring_solution.PNG" />
