@@ -94,6 +94,7 @@
     <Compile Include="StringProblems\3_FindLongestSubstring.cs" />
     <Compile Include="DynamicProgrammingProblems\2_LongestCommonSubstring.cs" />
     <Compile Include="StringProblems\CommandParser.cs" />
+    <Compile Include="StringProblems\4_OneEditAway.cs" />
     <Compile Include="TreeProblems\BinarySearchTreeChecker.cs" />
     <Compile Include="TreeProblems\CheckTreeBalance.cs" />
     <Compile Include="TreeProblems\DataStructures\Graph.cs" />
