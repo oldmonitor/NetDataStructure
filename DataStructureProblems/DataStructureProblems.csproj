@@ -102,6 +102,7 @@
     <Compile Include="TreeProblems\DataStructures\TreeNode.cs" />
     <Compile Include="TreeProblems\BinarySearchTreeSucessor.cs" />
     <Compile Include="TreeProblems\GetTreeHeight.cs" />
+    <Compile Include="TreeProblems\L366_FindLeavesOfBinaryTree.cs" />
     <Compile Include="TreeProblems\MinHeightTree.cs" />
     <Compile Include="TreeProblems\PathChecker.cs" />
     <Compile Include="TreeProblems\TreeToLinkListConverter.cs" />
